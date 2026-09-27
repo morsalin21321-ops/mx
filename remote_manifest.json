@@ -25,13 +25,8 @@
       "not_file_lines": 12
     },
     "Zimbra": {
-      "version": 3,
-      "add_mx_patterns": [
-        [
-          "airtel.com",
-          "airtel_com.txt"
-        ]
-      ],
+      "version": 2,
+      "add_mx_patterns": [],
       "history_entries": 16,
       "not_file_lines": 8
     },
