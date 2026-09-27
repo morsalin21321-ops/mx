@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-27T16:48:59.980600+00:00",
+  "generated_by": "publish_manifest.py",
+  "detectors": {
+    "MX/SPF Classifier": {
+      "version": 5,
+      "add_mx_patterns": [
+        [
+          "oxcs.net",
+          "oxcs_net.txt"
+        ],
+        [
+          "wadax-sv.jp",
+          "wadax-sv_jp.txt"
+        ]
+      ],
+      "history_entries": 51,
+      "not_file_lines": 0
+    },
+    "cPanel / Roundcube": {
+      "version": 4,
+      "add_mx_patterns": [],
+      "history_entries": 38,
+      "not_file_lines": 12
+    },
+    "Zimbra": {
+      "version": 3,
+      "add_mx_patterns": [
+        [
+          "airtel.com",
+          "airtel_com.txt"
+        ]
+      ],
+      "history_entries": 16,
+      "not_file_lines": 8
+    },
+    "OWA / Exchange": {
+      "version": 2,
+      "add_mx_patterns": [],
+      "history_entries": 10,
+      "not_file_lines": 0
+    }
+  }
+}
