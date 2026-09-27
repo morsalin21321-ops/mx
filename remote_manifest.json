@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T22:39:16.613090+00:00",
+  "generated_at": "2026-09-27T16:48:59.980600+00:00",
   "generated_by": "publish_manifest.py",
   "detectors": {
     "MX/SPF Classifier": {
-      "version": 6,
+      "version": 5,
       "add_mx_patterns": [
         [
           "cjec.org",
@@ -23,143 +23,20 @@
       "not_file_lines": 0
     },
     "cPanel / Roundcube": {
-      "version": 5,
-      "add_mx_patterns": [
-        [
-          "mailanyone.net",
-          "mailanyone_net.txt"
-        ],
-        [
-          "mx25.net",
-          "mx25_net.txt"
-        ],
-        [
-          "junkemailfilter.com",
-          "junkemailfilter_com.txt"
-        ],
-        [
-          "emailsecurity.app",
-          "emailsecurity_app.txt"
-        ],
-        [
-          "jsheld.com",
-          "jsheld_com.txt"
-        ],
-        [
-          "fortimailcloud.com",
-          "fortimailcloud_com.txt"
-        ],
-        [
-          "verdioncology.com",
-          "verdioncology_com.txt"
-        ],
-        [
-          "ik2.com",
-          "ik2_com.txt"
-        ],
-        [
-          "avataracloud.com",
-          "avataracloud_com.txt"
-        ],
-        [
-          "ik2.io",
-          "ik2_io.txt"
-        ],
-        [
-          "ik2.eu",
-          "ik2_eu.txt"
-        ],
-        [
-          "evanstonrecycling.com",
-          "evanstonrecycling_com.txt"
-        ],
-        [
-          "crafty-games.com",
-          "crafty-games_com.txt"
-        ],
-        [
-          "goodmanbuildingsupply.net",
-          "goodmanbuildingsupply_net.txt"
-        ],
-        [
-          "petland.com",
-          "petland_com.txt"
-        ],
-        [
-          "gomailify.com",
-          "gomailify_com.txt"
-        ],
-        [
-          "junkemailfilter.net",
-          "junkemailfilter_net.txt"
-        ],
-        [
-          "junkemailfilter.org",
-          "junkemailfilter_org.txt"
-        ],
-        [
-          "mquigleyco.com",
-          "mquigleyco_com.txt"
-        ],
-        [
-          "shelvingdesignsystems.com",
-          "shelvingdesignsystems_com.txt"
-        ],
-        [
-          "emailservice.cc",
-          "emailservice_cc.txt"
-        ],
-        [
-          "emailservice.co",
-          "emailservice_co.txt"
-        ],
-        [
-          "emailservice.io",
-          "emailservice_io.txt"
-        ]
-      ],
+      "version": 4,
+      "add_mx_patterns": [],
       "history_entries": 38,
       "not_file_lines": 12
     },
     "Zimbra": {
       "version": 3,
-      "add_mx_patterns": [
-        [
-          "av-mx.com",
-          "av-mx_com.txt"
-        ],
-        [
-          "newprovider-test.com\"",
-          "newprovider-test_com\".txt"
-        ],
-        [
-          "test-provider.com\"",
-          "test-provider_com\".txt"
-        ],
-        [
-          "gci.net",
-          "gci_net.txt"
-        ]
-      ],
+      "add_mx_patterns": [],
       "history_entries": 16,
-      "not_file_lines": 10
+      "not_file_lines": 8
     },
     "OWA / Exchange": {
-      "version": 3,
-      "add_mx_patterns": [
-        [
-          "com.mk",
-          "com_mk.txt"
-        ],
-        [
-          "apm-group.ch",
-          "apm-group_ch.txt"
-        ],
-        [
-          "sympatico.ca",
-          "sympatico_ca.txt"
-        ]
-      ],
+      "version": 2,
+      "add_mx_patterns": [],
       "history_entries": 10,
       "not_file_lines": 0
     }
