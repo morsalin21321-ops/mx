@@ -1,44 +1,79 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T16:48:59.980600+00:00",
+  "generated_at": "2026-09-30T00:53:00.171873+00:00",
   "generated_by": "publish_manifest.py",
   "detectors": {
     "MX/SPF Classifier": {
+      "version": 7,
+      "add_mx_patterns": [
+        [
+          "fortimailcloud.com",
+          "fortimailcloud_com.txt"
+        ]
+      ],
+      "history_entries": 42562,
+      "not_file_lines": 11687
+    },
+    "cPanel / Roundcube": {
       "version": 5,
       "add_mx_patterns": [
         [
-          "cjec.org",
-          "cjec_org.txt"
-        ],
-        [
-          "ohya-shobo.com",
-          "ohya-shobo_com.txt"
-        ],
-        [
-          "anshin-sv.jp",
-          "anshin-sv_jp.txt"
+          "avnet.com",
+          "avnet_com.txt"
         ]
       ],
-      "history_entries": 51,
-      "not_file_lines": 0
-    },
-    "cPanel / Roundcube": {
-      "version": 4,
-      "add_mx_patterns": [],
-      "history_entries": 38,
-      "not_file_lines": 12
+      "history_entries": 9213,
+      "not_file_lines": 2910
     },
     "Zimbra": {
       "version": 3,
-      "add_mx_patterns": [],
-      "history_entries": 16,
-      "not_file_lines": 8
+      "add_mx_patterns": [
+        [
+          "earthlink-vadesecure.net",
+          "earthlink-vadesecure_net.txt"
+        ],
+        [
+          "otenet.gr",
+          "otenet_gr.txt"
+        ],
+        [
+          "home.pl",
+          "home_pl.txt"
+        ],
+        [
+          "aikos.kz",
+          "aikos_kz.txt"
+        ],
+        [
+          "gosecure.net",
+          "gosecure_net.txt"
+        ],
+        [
+          "a1.net",
+          "a1_net.txt"
+        ]
+      ],
+      "history_entries": 8357,
+      "not_file_lines": 7285
     },
     "OWA / Exchange": {
-      "version": 2,
-      "add_mx_patterns": [],
-      "history_entries": 10,
-      "not_file_lines": 0
+      "version": 3,
+      "add_mx_patterns": [
+        [
+          "serveriai.lt",
+          "serveriai_lt.txt"
+        ],
+        [
+          "unified.services",
+          "unified_services.txt"
+        ],
+        [
+          "mailprotect.be",
+          "mailprotect_be.txt"
+        ]
+      ],
+      "history_entries": 8784,
+      "not_file_lines": 4710
     }
   }
 }
